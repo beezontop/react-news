@@ -1,0 +1,95 @@
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+nav {
+    position        : fixed;
+    padding         : 0 15px;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 52px;
+    background-color: white;
+    z-index         : 999;
+
+    a {
+        text-decoration: none;
+        color          : #333;
+        transition     : .3s;
+
+        &:hover {
+            color: #ccc;
+        }
+
+    }
+
+    li {
+        padding-right: 10px;
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+    // nav menu btn 
+
+    .MuiButton-root {
+        min-width: initial;
+    }
+
+    .MuiButton-text,
+    .MuiButton-root {
+        padding: 0;
+    }
+
+    // drop down menu btn
+    button#dropdown-basic {
+        margin    : 0;
+        padding   : 0;
+        border    : none;
+        background: transparent;
+        color     : #333;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .dropdown-item {
+        font-size: 13px;
+    }
+}
+
+.search-bar {
+    margin          : 0 auto;
+    width           : 200px;
+    height          : 30px;
+    border-radius   : 20px;
+    background-color: #eee;
+
+    input.search-input {
+        margin-top: 2px;
+        margin-left: 10px;
+        width: 150px;
+        height: 25px;
+        border: none;
+        background: transparent;
+
+        &:focus{
+            border:none;
+        }
+    }
+
+    .material-icons {
+        line-height: 28px;
+        color      : #999;
+    }
+
+    
+}

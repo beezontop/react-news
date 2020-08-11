@@ -1,0 +1,33 @@
+#category{
+    margin-top:52px;
+    transition: 1s;
+    button{
+        padding:0 5px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        color: #bbb;
+        font-weight: 300;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
+    ul{
+        margin:0;
+    }
+    li{
+        &:after{
+            padding-top: 5px;
+            content:url(../img/more_vert-black-18dp.svg);
+            transform: scaleX(.7);
+            opacity: .5;
+        }
+        &:last-child:after{
+            content:"";
+        }
+    }
+    
+    .active{
+        color:#333;
+        font-weight: bold;
+    }
+   
+}

@@ -1,0 +1,64 @@
+#login {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-image: url(../../img/pexels-thiago-matos-2335275.jpg);
+}
+
+#login .bg-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#login #logo {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  font-size: 3.5rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+}
+
+.login-menu {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  color: white;
+}
+
+.login-menu li {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.login-menu li button {
+  width: 100%;
+  height: 40px;
+}
+
+.login-menu li button.btn-light {
+  letter-spacing: 1px;
+}
+
+.login-menu li .icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  font-size: 20px;
+}
+
+.login-menu li .icon[class^="icon-"]:before, .login-menu li .icon [class*=" icon-"]:before {
+  margin: 0;
+}
+/*# sourceMappingURL=login.css.map */

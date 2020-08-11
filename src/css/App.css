@@ -1,0 +1,88 @@
+@charset "UTF-8";
+#posts-area {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
+.post {
+  display: inline-block;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  font-family: '微軟正黑體', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post .circle {
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: #002761;
+  border-radius: 50%;
+}
+
+.post .post-info {
+  padding: 8px;
+}
+
+.post .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.post a {
+  text-decoration: none;
+  color: #333;
+}
+
+.post a:hover {
+  color: #333;
+}
+
+.post .title {
+  display: -webkit-box;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+}
+
+.like-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.like-btn .material-icons {
+  font-size: 20px;
+}
+
+#category.move-top {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+/*# sourceMappingURL=App.css.map */

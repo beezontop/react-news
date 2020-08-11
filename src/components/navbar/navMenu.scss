@@ -1,0 +1,55 @@
+.guest-info {
+    display        : flex;
+    margin         : 10px;
+    justify-content: center;
+
+    p {
+        margin: 0;
+        color : #555;
+    }
+
+    .material-icons {
+        display     : inline-flex;
+        align-items : center;
+        margin-right: 25px;
+        font-size   : 40px;
+    }
+
+    .guest-title {
+        font-size  : 13px;
+        font-weight: 600;
+    }
+
+    .guest-id {
+        font-size  : 12px;
+        font-weight: 400;
+    }
+
+}
+
+button.MuiButtonBase-root {
+    display       : block;
+    margin        : 10px auto;
+    width         : 80%;
+    font-size     : 13px;
+    letter-spacing: 1px;
+}
+
+
+
+.MuiList-root .MuiListItem-gutters {
+    font-size: 14px;
+}
+
+.menu-list {
+    padding: 0 25px;
+    a {
+        display: block;
+        padding:5px;
+        color:#333;
+        &:hover{
+            text-decoration: none;
+            color:#eee;
+        }
+    }
+}

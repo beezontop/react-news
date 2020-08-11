@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+ul {
+    list-style: none;
+    margin    : 0;
+    padding   : 0;
+}
+
+#root a:hover{
+    text-decoration: none;
+}
+
+button {
+    border          : none;
+    background-color: transparent;
+    cursor          : pointer;
+}
+
+#logo {
+    line-height    : 52px;
+    font-size      : 30px;
+    font-family    : 'Pathway Gothic One', sans-serif;
+    text-decoration: none;
+    color:#333;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+.clearfix:after {
+    display: table;
+    content: "";
+    clear  : both;
+}
+
+.container {
+    margin : 0 auto;
+    padding: 0 10px;
+}
+
+.content {
+    background-color: #f9f9f9;
+}
+
+.overflowX-scroll {
+    overflow-x: scroll;
+}
+
+

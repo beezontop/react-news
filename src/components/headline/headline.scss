@@ -1,0 +1,134 @@
+.carousel {
+    height: 225px;
+}
+
+
+.carousel-inner {
+    height: 225px;
+}
+
+.carousel-item {
+    height: 225px;
+    a{
+        color:white;
+        &:hover{
+            color:white;
+        }
+    }
+    
+    img {
+        transition: .3s;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.brick-headline {
+    img {
+        width     : 100%;
+        height    : 100%;
+        object-fit: cover;
+        transition: .3s;
+    }
+
+}
+
+
+.brick-headline {
+    margin: 0 auto;
+    width : 80%;
+
+    .cover {
+        position        : absolute;
+        top             : 0;
+        left            : 0;
+        right           : 0;
+        bottom          : 0;
+        background-image: linear-gradient(transparent, rgba(0, 0, 0, .3));
+        z-index         : 1;
+        transition: .3s;
+    }
+
+    .cover-title {
+        position : absolute;
+        padding  : 0 14px;
+        width:100%;
+        bottom   : 5px;
+        color    : white;
+        font-size: 15px;
+        transition: .3s;
+    }
+}
+
+.news {
+    overflow: hidden;
+
+    .subtitle {
+        position: absolute;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+
+    &:hover {
+        .cover{
+            background-color: rgba(0,0,0,.5);
+        }
+        .cover-title{
+            top:50%;
+            transform: translateY(-50%);
+        }
+        img {
+
+            transform: scale(1.2);
+        }
+    }
+}
+
+.top-area {
+    display        : flex;
+    justify-content: space-between;
+    padding-bottom : 8px;
+
+    .main-news {
+        height:260px;
+        width: calc(66.6666666% - 4px);
+    }
+
+    .secondary-news {
+        width          : calc(33.3333333% - 4px);
+        
+        display        : flex;
+        flex-direction : column;
+        justify-content: space-between;
+
+        &>div {
+            // height: calc(50% - 4px);
+            height: calc(130px - 4px);
+        }
+
+    }
+}
+
+
+
+.bottom-area {
+    display: flex;
+    justify-content: space-between;
+    &>div {
+        width:calc(100% / 3 - 4px);
+        overflow    : hidden;
+        height: 130px;
+        &:hover {
+
+            img {
+
+                transform: scale(1.2);
+            }
+        }
+
+    }
+}

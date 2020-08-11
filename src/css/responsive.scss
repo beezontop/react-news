@@ -1,0 +1,230 @@
+@media (min-width:1200px) {
+
+
+    #posts-area {
+        column-count: 5;
+    }
+
+    .post {
+        margin       : 0;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    #category {
+        button {
+            font-size: 1.1rem;
+        }
+    }
+
+    iframe.nyt-frame {
+        height: 500px;
+    }
+
+    .brick-headline {
+        .main-news {
+            height:360px;
+
+        }
+        .secondary-news {
+
+            &>div {
+                height: calc(180px - 4px);
+            }
+    
+        }
+        .bottom-area {
+            &>div {
+                height: 180px;
+            }
+        }
+    }
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+
+
+    #posts-area {
+        column-count: 3;
+    }
+
+    .contact-form {
+        width : 80%;
+        margin: 0 auto;
+    }
+
+    iframe.nyt-frame {
+        height: 300px;
+    }
+
+
+    .brick-headline {
+        .main-news {
+            height:320px;
+
+        }
+        .secondary-news {
+
+            &>div {
+                height: calc(160px - 4px);
+            }
+    
+        }
+        .bottom-area {
+            &>div {
+                height: 160px;
+            }
+        }
+    }
+    
+    
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .sm-d-none {
+        display: none;
+    }
+
+    .sm-d-flex {
+        display: flex;
+    }
+
+
+    nav {
+        li {
+            padding-right: 20px;
+        }
+    }
+
+    #posts-area {
+        column-count: 3;
+    }
+
+    .post {
+        margin: 0 auto 40px;
+    }
+
+    iframe.nyt-frame {
+        height: 250px;
+    }
+
+    
+}
+
+@media (min-width:768px) {
+
+    .content {
+        margin: 0 auto;
+        width : 80%;
+    }
+
+    nav {
+        .sm-d-none {
+            display: none !important;
+        }
+
+        .sm-d-flex {
+            display: flex !important;
+        }
+    }
+
+    .sm-d-none {
+        display: none !important;
+    }
+
+
+    .brick-headline.sm-d-block {
+        display: block !important;
+    }
+
+
+    #category ul {
+        flex-wrap      : wrap;
+        justify-content: center;
+    }
+
+    span.material-icons {
+        font-size: 1.6rem;
+    }
+
+    .post{
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        header {
+            margin-top: 60px;
+        }
+
+        button.submit-btn {
+            display: block;
+            margin : 50px auto;
+            width  : 300px;
+        }
+
+        .contact-way {
+            margin-top   : 60px;
+            margin-bottom: 60px;
+        }
+    }
+
+    #login {
+        .login-menu {
+            width: 30%;
+        }
+    }
+
+    .brick-headline {
+        .carousel {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+
+        .carousel-item {
+            height: 100%;
+
+            img.d-block.w-100 {
+                top: 0;
+            }
+        }
+
+        .carousel-caption {
+            display        : flex;
+            flex-direction : column;
+            justify-content: center;
+            top            : 50%;
+            transform      : translateY(-50%);
+            background     : rgba(0, 0, 0, .5);
+        }
+
+        .brick-headline {
+            img {
+                width     : 100%;
+                height    : 100%;
+                object-fit: cover;
+            }
+
+
+        }
+
+    }
+
+}
+
+@media (min-width:600px) {
+
+    img.d-block.w-100 {
+        position: absolute;
+        top     : -50%;
+    }
+}

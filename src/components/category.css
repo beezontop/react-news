@@ -1,0 +1,37 @@
+#category {
+  margin-top: 52px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#category button {
+  padding: 0 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  color: #bbb;
+  font-weight: 300;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+#category ul {
+  margin: 0;
+}
+
+#category li:after {
+  padding-top: 5px;
+  content: url(../img/more_vert-black-18dp.svg);
+  -webkit-transform: scaleX(0.7);
+          transform: scaleX(0.7);
+  opacity: .5;
+}
+
+#category li:last-child:after {
+  content: "";
+}
+
+#category .active {
+  color: #333;
+  font-weight: bold;
+}
+/*# sourceMappingURL=category.css.map */

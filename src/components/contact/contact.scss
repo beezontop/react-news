@@ -1,0 +1,93 @@
+* {
+    font-family: '微軟正黑體', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+iframe.nyt-frame {
+    margin-top: 52px;
+    width     : 100%;
+}
+
+
+
+header {
+    margin-top      : 20px;
+    padding         : 20px;
+    text-align      : center;
+    background-color: #111;
+    color           : #fff;
+
+    h1,p{
+        margin:0;
+    }
+
+    h1 {
+        font-weight   : 400;
+        font-size     : 22px;
+        letter-spacing: 3px;
+    }
+
+    p {
+        padding-top   : 10px;
+        font-weight   : 300;
+        font-size     : 12px;
+        letter-spacing: 2px;
+        opacity       : .6;
+    }
+
+}
+
+.container {
+
+    h1,
+    p {
+        margin: 0;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+.contact-way {
+    display: flex;
+    margin : 20px -10px;
+
+    a {
+        display        : block;
+        overflow       : hidden;
+        text-overflow  : ellipsis;
+        white-space    : nowrap;
+        text-decoration: none;
+        color          : initial;
+    }
+
+    div {
+        padding   : 0 10px;
+        width     : 33.3333%;
+        text-align: center;
+    }
+
+    .title {
+        padding       : 5px 0;
+        font-size     : 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .desc {
+        font-size: 12px;
+    }
+}
+
+.contact-form {
+    input{
+        font-size: 13px;
+    }
+
+    .submit-btn {
+        background: #111;
+        border    : none;
+        width     : 100%;
+    }
+}
