@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.016a7b7a.chunk.css",
+    "main.js": "/static/js/main.ae8d90ae.chunk.js",
+    "main.js.map": "/static/js/main.ae8d90ae.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d577d004.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d577d004.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.27e919a8.chunk.js": "/static/js/2.27e919a8.chunk.js",
+    "static/js/2.27e919a8.chunk.js.map": "/static/js/2.27e919a8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.75f4009bc6951a65d4323670df632c0d.js": "/precache-manifest.75f4009bc6951a65d4323670df632c0d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.016a7b7a.chunk.css.map": "/static/css/main.016a7b7a.chunk.css.map",
+    "static/js/2.27e919a8.chunk.js.LICENSE.txt": "/static/js/2.27e919a8.chunk.js.LICENSE.txt",
+    "static/media/fontello.ttf": "/static/media/fontello.090e4629.ttf",
+    "static/media/fontello.css": "/static/media/fontello.abcd6752.eot",
+    "static/media/category.css": "/static/media/more_vert-black-18dp.0df05e7a.svg",
+    "static/media/login.css": "/static/media/pexels-thiago-matos-2335275.2e05b272.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d577d004.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.27e919a8.chunk.js",
+    "static/css/main.016a7b7a.chunk.css",
+    "static/js/main.ae8d90ae.chunk.js"
+  ]
+}
