@@ -61,14 +61,14 @@ export default function NavMenu() {
         <Button variant="contained" color="secondary">
           LOGIN
         </Button>
-        <div class="menu-list d-flex flex-column">
+        <div className="menu-list d-flex flex-column">
           <a href="#/action-1">Notifications</a>
           <a href="#/action-2">Settings</a>
           <a href="#/action-3">Report a problem</a>
         </div>
       </List>
       <Divider />
-      <div class="menu-list d-flex flex-column">
+      <div className="menu-list d-flex flex-column">
         <a href="#/action-4">About MomDaily</a>
         <a href="#/action-5">Privacy</a>
       </div>

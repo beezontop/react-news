@@ -1,5 +1,5 @@
 #posts-area {
-    margin-top:20px;
+    margin-top      : 20px;
     background-color: rgb(249, 249, 249);
     column-count    : 2;
 }
@@ -13,7 +13,7 @@
     font-family  : '微軟正黑體', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     img {
-        width        : 100%;
+        width: 100%;
     }
 
     .circle {
@@ -75,8 +75,8 @@
     transform: translateY(-20px);
 }
 
-.spinner{
+.spinner {
     position: absolute;
-    top:50%;
-    left:50%;
+    top     : calc(50% - 24px);
+    left    : calc(50% - 24px);
 }
